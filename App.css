@@ -1,0 +1,82 @@
+:root {
+  --text: #04060b;
+  --background: #f2f6fb;
+  --primary: #376dd0;
+  --secondary: #89abea;
+  --accent: #5e8feb;
+}
+
+body,h1,h2,h3 {
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 200;
+}
+
+h4,h5,h6,p,button,input,textarea,label,a,div {
+  font-family: 'Playfair Display', serif
+}
+
+.login-container {
+  background: linear-gradient(to right, #6A11CB, #2575FC);
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+ 
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+ 
+.form {
+  display: flex;
+  flex-direction: column;
+}
+ 
+.input-container {
+  margin-bottom: 15px;
+  margin-right: auto;
+  padding-right: 10px;
+}
+ 
+.input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+ 
+.options-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+ 
+.forgot-password {
+  color: #fff;
+  text-decoration: underline;
+}
+ 
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+ 
+.login-button:hover {
+  background-color: #0056b3;
+}
+ 
+.register-link {
+  color: #fff;
+  text-decoration: underline;
+}
+ 
+ 
