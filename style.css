@@ -1,0 +1,13 @@
+.form-group{
+    padding: 10px;
+}
+ 
+.form-check{
+    padding: 20px;
+}
+ 
+form-control{
+    padding: auto;
+    margin-top: 5px;
+}
+ 
